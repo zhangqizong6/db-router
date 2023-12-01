@@ -1,0 +1,17 @@
+#????
+router:
+  jdbc:
+    datasource:
+      dbCount:
+      tbCount:
+      list: db01,db02
+      db01:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/db_01?useUnicode=true
+        username: root
+        password: 123456
+      db02:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/db_02?useUnicode=true
+        username: root
+        password: 123456
